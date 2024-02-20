@@ -1,0 +1,19 @@
+{
+    "name": "a-logachev/my-pkg",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "ALogachev\\MyPkg\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ALogachev",
+            "email": "aelog16@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "fakerphp/faker": "^1.23"
+    }
+}
