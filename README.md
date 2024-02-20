@@ -2,7 +2,7 @@
 
 ## Требования
 
-- PHP 8.2
+- PHP 7.4
 
 ## Установка
 
@@ -14,6 +14,8 @@ composer require a-logachev/my-pkg
 
 ```php
 <?php
+
+use ALogachev\MyPkg\TextGenerator;
 
 $textGenerator = new TextGenerator();
 echo $textGenerator->createText(4)

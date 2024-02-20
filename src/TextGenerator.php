@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace ALogachev\MyPkg;
+
 use Faker\Factory;
 use Faker\Generator;
 
